@@ -1,0 +1,47 @@
+@media all and (max-width: 601px) {
+  .shapka__left__title {
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .shapka__right__item {
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 506px) {
+  .shapka {
+    flex-wrap: wrap;
+  }
+  .shapka__right {
+    align-items: center;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .experience__title {
+    font-size: 14px;
+  }
+  .achievements__title {
+    font-size: 14px;
+  }
+  .key__skills__title {
+    font-size: 14px;
+  }
+  .education_certifcates__title {
+    font-size: 14px;
+  }
+  .key_skills__title {
+    font-size: 14px;
+  }
+  .t {
+    font-size: 14px;
+  }
+  .experience__item__p {
+    font-size: 13px;
+  }
+  .achievements__list__item__p {
+    font-size: 13px;
+  }
+  .education__list__item__p {
+    font-size: 13px;
+  }
+}

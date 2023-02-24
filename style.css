@@ -1,0 +1,361 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  margin-top: 40px;
+  margin-left: 10%;
+  width: 80%;
+  border: 3px solid black;
+  background-color: rgb(123, 105, 105);
+}
+/* start shapka */
+.shapka {
+  background-color: rgb(55, 52, 52);
+  color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.shapka__left {
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-bottom: 40px;
+  display: flex;
+  width: 60%;
+  align-items: center;
+}
+
+.shapka__left__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 45%;
+}
+.shapka__left__title {
+  text-decoration: underline;
+  font-size: 30px;
+  margin-left: 10%;
+  text-align: center;
+}
+.shapka__right {
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  list-style-type: none;
+}
+.shapka__right__item {
+  text-align: end;
+  font-size: 20px;
+  font-weight: 600px;
+  margin-top: 5%;
+}
+/* shapka end */
+/* header start */
+header {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+}
+
+/* expierence start */
+.experience {
+  width: 50%;
+  margin-left: 12%;
+}
+.experience__title {
+  font-size: 24px;
+  line-height: 30px;
+}
+.experience__list {
+  margin-top: 20px;
+  border-left: 4px solid black;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95%;
+}
+.experience__item {
+  height: 33%;
+}
+.experience__item__title {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  margin-left: 5%;
+}
+.experience__item__p {
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 5%;
+  color: white;
+  width: 60%;
+}
+
+/* expierence end */
+/* header right stert */
+/* acivievements start */
+.header__right {
+  width: 50%;
+  margin-right: 10%;
+}
+.achievements {
+  display: flex;
+  flex-direction: column;
+}
+.achievements__title {
+  text-align: center;
+  font-size: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+.achievements__list {
+  margin-top: 20px;
+  display: flex;
+  list-style-type: none;
+}
+.achievements__list__item {
+  width: 50%;
+}
+
+.achievements__list__item__title {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.achievements__list__item__p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 10%;
+  color: white;
+  width: 80%;
+}
+
+/* acievements end */
+/* key start */
+.key_skills {
+  width: 100%;
+}
+.key_skills__title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+.key_skills__list {
+  padding: 5%;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  border-radius: 20%;
+  animation: Edinorog 4s ease-in-out infinite;
+}
+
+.key_skills__list__item__name {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.procent {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+#key_skills__list__item__procent1 {
+  height: 4px;
+  width: 80%;
+  background-color: goldenrod;
+}
+#key_skills__list__item__ostatok1 {
+  height: 4px;
+  width: 20%;
+  background-color: red;
+}
+#key_skills__list__item__procent2 {
+  height: 4px;
+  width: 65%;
+  background-color: goldenrod;
+}
+#key_skills__list__item__ostatok2 {
+  height: 4px;
+  width: 35%;
+  background-color: red;
+}
+#key_skills__list__item__procent3 {
+  height: 4px;
+  width: 77%;
+  background-color: goldenrod;
+}
+#key_skills__list__item__ostatok3 {
+  height: 4px;
+  width: 23%;
+  background-color: red;
+}
+#key_skills__list__item__procent4 {
+  height: 4px;
+  width: 100%;
+  background-color: goldenrod;
+  margin-bottom: 20px;
+}
+
+/* key end */
+/* education start  */
+
+.education_certifcates {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.education {
+  width: 50%;
+}
+.education_certifcates__title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+.education__list {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.education__list__item {
+  height: 30%;
+  width: 100%;
+}
+.education__list__item__title {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.education__list__item__p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 10%;
+  color: white;
+  width: 80%;
+}
+
+/* education end */
+/* certif start */
+.certif {
+  width: 50%;
+}
+.certif__list {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.certif__list__item {
+  height: 30%;
+  width: 100%;
+}
+.certif__list__item__title {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.certif__list__item__p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 10%;
+  color: white;
+  width: 80%;
+}
+/* certif end */
+
+/* header right end */
+
+/* header end */
+/* footer start */
+.footer {
+  background-color: rgb(55, 52, 52);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__title {
+  margin-top: 20px;
+  color: beige;
+  text-align: left;
+  font-size: 20px;
+}
+.footer__list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.portfolio:hover {
+  background-color: beige;
+  border-radius: 20%;
+  color: black;
+}
+.portfolio {
+  color: beige;
+  text-align: center;
+  text-decoration: none;
+}
+
+.certif_str:hover {
+  background-color: beige;
+  border-radius: 20%;
+  color: black;
+}
+.certif_str {
+  color: beige;
+  text-align: center;
+  text-decoration: none;
+}
+/* footer end */
+/* animation start */
+@keyframes Edinorog {
+  0% {
+    background-color: beige;
+  }
+  25% {
+    background-color: burlywood;
+  }
+  50% {
+    background-color: black;
+    color: beige;
+  }
+  75% {
+    background-color: burlywood;
+  }
+  100% {
+    background-color: beige;
+  }
+}
+/* animation end */
